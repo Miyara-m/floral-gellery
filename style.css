@@ -1,0 +1,77 @@
+body {
+    text-align: center;
+    background-color: mediumseagreen;
+    color:aqua;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+h1 {
+    color: chartreuse;
+    background-color: forestgreen;
+    font-family: cursive;
+}
+
+.img_style img {
+    border-radius: 20%;
+    border-width: thick;
+    border-style: groove;
+    border-color: floralwhite;
+    width: 300px;
+    height: 300px;
+}
+
+Menu {
+    color: aquamarine;
+    background-color: cornflowerblue;
+    font-family: cursive;
+    text-shadow: 50px;
+    text-shadow: 20px;
+}
+.parentsection {
+display:grid;
+  justify-content: left;
+  align-content: left;
+
+  gap: 15px;
+  grid-auto-flow: column;
+}
+.parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    grid-column-gap:5px;
+    grid-row-gap: 5px;
+    inline-size: 550px;
+ 
+}
+
+.div1 { grid-area: 1 / 1 / 2 / 2; }
+.div2 { grid-area: 1 / 2 / 2 / 3; }
+.div3 { grid-area: 1 / 3 / 2 / 4; }
+.div4 { grid-area: 1 / 4 / 2 / 5; }
+.div5 { grid-area: 2 / 4 / 3 / 5; }
+.div6 { grid-area: 2 / 3 / 3 / 4; }
+.div7 { grid-area: 2 / 2 / 3 / 3; }
+.div8 { grid-area: 2 / 1 / 3 / 2; }
+#myCarousel{
+   background-color: forestgreen;
+    color:aqua;
+    font-weight: bold;
+    text-align: center;
+}
+#myCarousel img{
+   height: 300px;
+   width: 400px;
+
+}
+.casousel-inner p{
+   margin-bottom: 15px;
+   margin-top: 15px;
+   color: aliceblue;
+   font-size: 20px;
+   
+}
+.menu{
+   align-items:baseline;
+}
